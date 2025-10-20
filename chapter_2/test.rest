@@ -1,0 +1,20 @@
+
+### TEST GET/ homepage WEBSITE
+GET http://localhost:7575
+
+### TEST GET/ dashboard WEBSITE
+GET http://localhost:7575/dashboard
+
+### DATA ENDPOINT
+GET http://localhost:7575/api/data
+
+### ENDPOINT FOR ADDING A USER
+POST http://localhost:7575/api/data
+Content-Type: application/json
+
+{
+    "name" : "Gilgameesh"
+}
+
+### DELETE ENDPOINT
+DELETE http://localhost:7575/api/data 
